@@ -1,0 +1,1 @@
+            <img src="/assets/img/sun-services/service-<?php echo $n; ?>.jpg" alt="<?php echo htmlspecialchars($svc['title']); ?> – Sun Services Inc" loading="lazy" width="480" height="320">

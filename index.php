@@ -512,6 +512,20 @@ include __DIR__ . '/includes/header.php';
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap
   }
+  /* FAQ cards */
+  .ssi-home__faq { margin: 8px 0 26px }
+  .ssi-faq-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px }
+  @media (max-width:900px){ .ssi-faq-grid { grid-template-columns: 1fr } }
+  .ssi-faq { background: #fff; border: 2px solid var(--ink); border-radius: 12px; padding: 10px }
+  .ssi-faq summary { list-style: none; cursor: pointer; font-weight: 700 }
+  .ssi-faq summary::-webkit-details-marker { display: none }
+  .ssi-faq[open] { box-shadow: 0 6px 20px rgba(2,6,23,.08) }
+  .ssi-faq .faq-body { margin-top: 8px; color: var(--muted); font-size: 14px }
+  /* Fallback: style existing <details> if wrapper class not present */
+  .ssi-home__faq details { background:#fff; border:2px solid var(--ink); border-radius:12px; padding:10px; margin:10px 0 }
+  .ssi-home__faq summary { list-style:none; cursor:pointer; font-weight:700 }
+  .ssi-home__faq summary::-webkit-details-marker { display:none }
+  .ssi-home__faq details[open] { box-shadow:0 6px 20px rgba(2,6,23,.08) }
 </style>
 
 <!-- ========================= -->
@@ -528,8 +542,8 @@ include __DIR__ . '/includes/header.php';
       <h1 class="ssi-home__title">Cleaning, Polishing &amp; Facility Services — Done Right</h1>
       <p class="ssi-home__lead">From <strong>marble floor crystallization</strong> and <strong>sofa shampooing</strong> to <strong>deep home cleaning</strong>, <strong>blinds &amp; wallpaper installation</strong>, and <strong>office housekeeping</strong>, Sun Services Inc delivers trained teams, the right machines &amp; chemistry, and on-time, quality service.</p>
       <div class="ssi-home__cta-row">
-        <button class="ssi-btn ssi-btn--primary" type="button" data-service="General Enquiry">Book a Visit</button>
-        <button class="ssi-btn ssi-btn--ghost" type="button" data-service="Get Quote">Get a Quote</button>
+        <button class="ssi-btn ssi-btn--primary open-enquiry" type="button" data-service="General Enquiry">Book a Visit</button>
+        <button class="ssi-btn ssi-btn--ghost open-enquiry" type="button" data-service="Get Quote">Get a Quote</button>
       </div>
     </div>
     <div class="ssi-home__media">
@@ -570,8 +584,36 @@ include __DIR__ . '/includes/header.php';
       <span class="chip">PVC/Vinyl &amp; Wooden Floor Care</span>
     </div>
 
-    <!-- Auto-card grid that mirrors your existing links -->
-    <div class="ssi-home__grid" id="ssiServiceCards"></div>
+    <!-- Server-rendered card grid (12 items) -->
+    <?php
+      $top_services = [
+        ['title' => 'Marble Floor Polishing', 'href' => '/services/marble-polishing.php'],
+        ['title' => 'Sofa & Upholstery Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
+        ['title' => 'Carpet Cleaning', 'href' => '/services/carpet-cleaning.php'],
+        ['title' => 'Window Cleaning', 'href' => '/services/window-cleaning.php'],
+        ['title' => 'Wallpaper Installation', 'href' => '/services/wallpaper-installation.php'],
+        ['title' => 'Window Blinds', 'href' => '/services/blinds.php'],
+        ['title' => 'Roller Blinds', 'href' => '/services/roller-blinds.php'],
+        ['title' => 'Roman Blinds', 'href' => '/services/roman-blinds.php'],
+        ['title' => 'Honeycomb Blinds', 'href' => '/services/honeycomb-blinds.php'],
+        ['title' => 'Curtains', 'href' => '/services/curtains.php'],
+        ['title' => 'Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
+        ['title' => 'Laminate Flooring', 'href' => '/services/laminate-flooring.php'],
+      ];
+    ?>
+    <div class="ssi-home__grid" id="ssiServiceCards">
+      <?php $i = 0; foreach ($top_services as $svc): $i++; $n = str_pad((string)$i, 2, '0', STR_PAD_LEFT); ?>
+        <a class="ssi-card" href="<?php echo htmlspecialchars($svc['href']); ?>" aria-label="<?php echo htmlspecialchars($svc['title']); ?>">
+          <figure class="ssi-card__media">
+            <img src="/assets/img/sun-services/service-<?php echo $n; ?>.jpg" alt="<?php echo htmlspecialchars($svc['title']); ?> – Sun Services Inc" loading="lazy" width="480" height="320">
+          </figure>
+          <div class="ssi-card__body">
+            <h3><?php echo htmlspecialchars($svc['title']); ?></h3>
+            <p><?php echo htmlspecialchars($svc['title']); ?> by trained professionals in Delhi NCR. Book a visit today.</p>
+          </div>
+        </a>
+      <?php endforeach; ?>
+    </div>
   </div>
 
   <!-- Why choose us -->
@@ -724,7 +766,7 @@ include __DIR__ . '/includes/header.php';
         <p class="sr-only">Tap the button to request service.</p>
       </div>
       <div>
-        <button class="ssi-btn ssi-btn--primary" type="button" data-service="General Enquiry">Request Service</button>
+        <button class="ssi-btn ssi-btn--primary open-enquiry" type="button" data-service="General Enquiry">Request Service</button>
       </div>
     </div>
     <img src="/assets/img/sun-services/hero-team-01.jpg" alt="" aria-hidden="true">
@@ -761,6 +803,8 @@ include __DIR__ . '/includes/header.php';
   (function() {
     var grid = document.getElementById('ssiServiceCards');
     if (!grid) return;
+    // Prevent duplicating server-rendered cards
+    if (grid.children && grid.children.length) return;
     // Try to locate an existing services block to mirror links from
     var legacy = document.querySelector('.section-columns, .services-list, .services, #services, main .links, nav .services');
     var links = legacy ? legacy.querySelectorAll('a[href]') : [];
