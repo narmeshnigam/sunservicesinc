@@ -31,7 +31,7 @@ include __DIR__ . '/../includes/header.php';
 
 <section>
     <div class="container">
-        <h2>Our Work</h2>
+        <h2>Photos &amp; Videos</h2>
         <p>See some examples of our recent projects:</p>
         <div class="section-columns">
             <div class="col"><img src="/assets/images/service-placeholder.png" alt="Sample work 1" /></div>

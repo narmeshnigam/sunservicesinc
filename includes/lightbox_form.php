@@ -63,12 +63,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['enquiry_submit'])) {
 
 // Build list of services and sub‑services for select fields. The mapping is reused on the front‑end via JavaScript.
 $services_map = [
-    'Flooring' => ['Carpet Flooring','Laminate Flooring','Vinyl Flooring'],
-    'Cleaning' => ['Carpet Cleaning','Sofa & Chair Cleaning','Window Cleaning','Marble Polishing'],
-    'Window Treatments' => ['Blinds','Honeycomb Blinds','Roller Blinds','Roman Blinds','PVC Chick Blinds'],
-    'Curtains & Nets' => ['Curtains','PVC Strip Curtains','Mosquito Nets'],
-    'Wall & Décor' => ['Wallpaper Installation','PVC Wall Stickers'],
-    'Facility Services' => ['Facility Management','Annual Maintenance','Corporate AMC'],
+    'Blinds' => ['Vertical Blinds','Honeycomb Blinds','Roller Blinds','Roman Blinds','PVC Chick Blinds', 'Zebra Blinds', 'Venetian Blinds', 'Others'],
+    'Flooring' => ['Carpet Flooring','Laminate Wooden Flooring','PVC Vinyl Flooring', 'Others'],
+    'Cleaning' => ['Carpet Cleaning','Sofa & Chair Cleaning','Window Cleaning','Marble & Granite Polishing', 'Others'],
+    'Curtains, Channels/Rods' => ['Designer Curtain','Curtain Track','Curtain & Sofa Fabric', 'Others'],
+    'Mosquito Net' => ['Roll Down', 'Shutter/Sliding', 'Others'],
+    'Wall & Décor' => ['Imported Wallpaper','PVC Wall Panel', 'UVM PVC Wall Sticker', 'Customised Wallpaper', 'Others'],
+    'Facility Services' => ['Facility Management','Annual Maintenance','Corporate AMC', 'Industries & Factories', 'Others'],
+    'Polishing' => ['Diamond Polishing','Silicate Polishing', 'Others'],
+    'Office Furniture' => ['Office Chair','Office Table','Office Workstation', 'Office Sofa', 'Others'],
 ];
 
 ?>

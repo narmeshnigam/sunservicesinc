@@ -68,6 +68,10 @@ include __DIR__ . '/../includes/header.php';
                 <p>Affordable and versatile PVC chick blinds.</p>
             </div>
             <div class="col">
+                <h3><a href='/services/motorised-blinds.php'>Motorised Blinds</a></h3>
+                <p>Automated motorised blinds for effortless control and convenience.</p>
+            </div>
+            <div class="col">
                 <h3><a href='/services/pvc-strip-curtains.php'>PVC Strip Curtains</a></h3>
                 <p>Industrial and commercial PVC strip curtains.</p>
             </div>
@@ -148,6 +152,41 @@ include __DIR__ . '/../includes/header.php';
 </section>
 <section>
     <div class="container">
+        <h2>Office Furniture</h2>
+        <div class="section-columns">
+            <div class="col">
+                <h3><a href='/services/executive-chairs.php'>Executive Chairs</a></h3>
+                <p>Premium executive chairs for comfortable and stylish office seating.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/office-sofa.php'>Office Sofa</a></h3>
+                <p>Comfortable and stylish office sofas for reception and lounge areas.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/office-chairs.php'>Office Chairs</a></h3>
+                <p>Ergonomic office chairs designed for productivity and support.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/bar-chairs.php'>Bar Chairs</a></h3>
+                <p>Modern bar chairs suitable for office pantries and lounges.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/cafeteria-chairs-tables.php'>Cafeteria Chairs & Tables</a></h3>
+                <p>Durable and stylish cafeteria chairs and tables for office dining areas.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/work-station.php'>Work Station</a></h3>
+                <p>Functional and space-efficient work stations for offices.</p>
+            </div>
+            <div class="col">
+                <h3><a href='/services/outdoor-furnitures.php'>Outdoor Furnitures</a></h3>
+                <p>Weather-resistant outdoor furniture for office terraces and gardens.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
         <h2>Maintenance Services</h2>
         <div class="section-columns">
             <div class="col">
@@ -177,38 +216,6 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <h2>Office Furniture</h2>
-        <div class="section-columns">
-            <div class="col">
-                <h3><a href='/services/executive-chairs.php'>Executive Chairs</a></h3>
-                <p>Premium executive chairs for comfortable and stylish office seating.</p>
-            </div>
-            <div class="col">
-                <h3><a href='/services/office-chairs.php'>Office Chairs</a></h3>
-                <p>Ergonomic office chairs designed for productivity and support.</p>
-            </div>
-            <div class="col">
-                <h3><a href='/services/bar-chairs.php'>Bar Chairs</a></h3>
-                <p>Modern bar chairs suitable for office pantries and lounges.</p>
-            </div>
-            <div class="col">
-                <h3><a href='/services/cafeteria-chairs-tables.php'>Cafeteria Chairs & Tables</a></h3>
-                <p>Durable and stylish cafeteria chairs and tables for office dining areas.</p>
-            </div>
-            <div class="col">
-                <h3><a href='/services/work-station.php'>Work Station</a></h3>
-                <p>Functional and space-efficient work stations for offices.</p>
-            </div>
-            <div class="col">
-                <h3><a href='/services/outdoor-furnitures.php'>Outdoor Furnitures</a></h3>
-                <p>Weather-resistant outdoor furniture for office terraces and gardens.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section>
     <div class="container" style="text-align:center;">
         <h2>Ready to get started?</h2>
