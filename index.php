@@ -672,6 +672,12 @@ include __DIR__ . '/includes/header.php';
       </thead>
       <tbody>
         <tr>
+          <td>Blinds</td>
+          <td>per sq.ft.</td>
+          <td>₹75 – ₹300+</td>
+          <td>Depends on size, material and cartridge selection</td>
+        </tr>
+        <tr>
           <td>Marble Floor Polishing / Crystallization</td>
           <td>per sq.ft.</td>
           <td>₹25 – ₹60</td>
@@ -688,12 +694,6 @@ include __DIR__ . '/includes/header.php';
           <td>per seat</td>
           <td>₹299 – ₹499</td>
           <td>Fabric type &amp; stain level</td>
-        </tr>
-        <tr>
-          <td>Bathroom Deep Cleaning</td>
-          <td>per bathroom</td>
-          <td>₹699 – ₹1,199</td>
-          <td>Water-spot &amp; grout focus</td>
         </tr>
         <tr>
           <td>Wallpaper Installation</td>
