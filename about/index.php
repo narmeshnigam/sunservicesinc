@@ -20,7 +20,8 @@ include __DIR__ . '/../includes/header.php';
         <ol>
             <li><strong>Consultation:</strong> Discuss your requirements and expectations.</li>
             <li><strong>Quotation:</strong> Receive a detailed quote with no hidden charges.</li>
-            <li><strong>Performa Invoice:</strong> Get format of invoice, to fit your business needs.</li>
+            <li><strong>Purchase Order:</strong> All set! Purchase order is received from client.</li>
+            <li><strong>Performa Invoice:</strong> Get format of invoice, to fit your business needs. (optional)</li>
             <li><strong>Product or Service Supply:</strong> We bring tools and products to your service location.</li>
             <li><strong>Service Execution:</strong> Our professionals perform the service efficiently and safely.</li>
             <li><strong>Quality Check & Feedback:</strong> We ensure everything meets your standards and welcome your feedback.</li>
