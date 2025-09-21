@@ -31,8 +31,12 @@
                             <a href="tel:+918800768101">+91 8800768101</a>
                         </li>
                         <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 1H7a4 4 0 00-4 4v14a4 4 0 004 4h10a4 4 0 004-4V5a4 4 0 00-4-4zm-5 22a2 2 0 110-4 2 2 0 010 4zM19 17H5V5a2 2 0 012-2h10a2 2 0 012 2v12z"/></svg>
+                            <a href="tel:+9188007680103">+91 88007680103</a>
+                        </li>
+                        <li>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4a4 4 0 014 4v8a4 4 0 01-4 4H9l-5 3v-3H4a4 4 0 01-4-4V8a4 4 0 014-4h16zm-2.5 3h-11A1.5 1.5 0 005 8.5v7A1.5 1.5 0 006.5 17h11a1.5 1.5 0 001.5-1.5v-7A1.5 1.5 0 0017.5 7z"/></svg>
-                            <a href="https://wa.me/9188007680103" target="_blank" rel="noopener">WhatsApp</a>
+                            <a href="https://wa.me/919968033567" target="_blank" rel="noopener">WhatsApp</a>
                         </li>
                         <li>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
@@ -59,7 +63,7 @@
         </div>
     </footer>
     <!-- Floating WhatsApp button -->
-    <a class="floating-whatsapp" href="https://wa.me/9188007680103" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <a class="floating-whatsapp" href="https://wa.me/919968033567" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0012 1 11 11 0 001 12a11 11 0 001.6 5.7L1 23l5.4-1.6A11 11 0 0012 23a11 11 0 0011-11 11.3 11.3 0 00-2.5-8.5zM12 21a9 9 0 01-4.6-1.3l-.3-.2-3.2.9.9-3.2-.2-.3A9 9 0 1121 12a9 9 0 01-9 9zm5.2-6.8c-.3-.2-1.7-.8-2-.9s-.5-.2-.7.2-.8.9-1 .9-.5 0-.8-.3a6.7 6.7 0 01-2-1.3A7.3 7.3 0 018.8 11c-.2-.3 0-.5.1-.7l.3-.4c.1-.2.1-.3 0-.5l-.7-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 2.4 2.4 0 00-.8 1.8 4.1 4.1 0 00.9 2.2A9.7 9.7 0 0011 15.6c1.2.5 1.6.4 1.9.4s.9-.3 1-.7a3.3 3.3 0 01.6-.7c.2-.1.3-.1.5-.1h.4c.2 0 .4 0 .6.1s1.3.6 1.5.7.3.1.4 0 .4-.2.4-.4.1-1 .1-1.1-.1-.2-.2-.3z"/></svg>
     </a>
     </body>
