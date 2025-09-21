@@ -32,7 +32,7 @@
                         </li>
                         <li>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 1H7a4 4 0 00-4 4v14a4 4 0 004 4h10a4 4 0 004-4V5a4 4 0 00-4-4zm-5 22a2 2 0 110-4 2 2 0 010 4zM19 17H5V5a2 2 0 012-2h10a2 2 0 012 2v12z"/></svg>
-                            <a href="tel:+9188007680103">+91 88007680103</a>
+                            <a href="tel:+918800768103">+91 8800768103</a>
                         </li>
                         <li>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 4a4 4 0 014 4v8a4 4 0 01-4 4H9l-5 3v-3H4a4 4 0 01-4-4V8a4 4 0 014-4h16zm-2.5 3h-11A1.5 1.5 0 005 8.5v7A1.5 1.5 0 006.5 17h11a1.5 1.5 0 001.5-1.5v-7A1.5 1.5 0 0017.5 7z"/></svg>

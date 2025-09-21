@@ -538,7 +538,6 @@ include __DIR__ . '/includes/header.php';
 <section class="ssi-home" data-ssi="home">
   <div class="container ssi-home__hero">
     <div>
-      <h1 class="ssi-home__title">Sun Services Inc</h1>
       <span class="ssi-home__eyebrow">Delhi NCR · Since 2006</span>
       <h1 class="ssi-home__title">Curtains, Blinds &amp; Flooring and Maintenance Services — Done Right</h1>
       <p class="ssi-home__lead">Complete <strong>curtains, blinds, and flooring solutions</strong>—from consultation and measurement to supply, professional installation, and ongoing maintenance. We manage every step, ensuring perfect fit, finish, and long-term care for homes and offices.</p>
@@ -599,8 +598,8 @@ include __DIR__ . '/includes/header.php';
         ['title' => 'Designer Curtains', 'href' => '/services/curtains.php'],
         ['title' => 'Laminate Flooring', 'href' => '/services/laminate-flooring.php'],
         ['title' => 'Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
+        ['title' => 'Wall Paper', 'href' => '/services/wallpaper-installation.php'],
         ['title' => 'Marble Floor Polishing', 'href' => '/services/marble-polishing.php'],
-        ['title' => 'Wallpaper Installation', 'href' => '/services/wallpaper-installation.php'],
         ['title' => 'Sofa & Upholstery Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
         ['title' => 'Carpet Cleaning', 'href' => '/services/carpet-cleaning.php'],
         
@@ -646,7 +645,7 @@ include __DIR__ . '/includes/header.php';
   <!-- Process + KPIs -->
   <div class="container ssi-home__process">
     <div class="ssi-steps">
-      <div class=" ssi-step\><strong>1) Book</strong><span>Pick a service &amp; slot — share photos if possible.</span></div>
+      <div class="ssi-step"><strong>1) Book</strong><span>Pick a service &amp; slot — share photos if possible.</span></div>
       <div class="ssi-step"><strong>2) Inspect</strong><span>On-site scope & chemistry confirmation before start.</span></div>
       <div class="ssi-step"><strong>3) Service</strong><span>Machines + trained staff deliver defined outcomes.</span></div>
       <div class="ssi-step"><strong>4) QC &amp; Handover</strong><span>Final check with you, cleanup, and after-care tips.</span></div>
@@ -699,14 +698,14 @@ include __DIR__ . '/includes/header.php';
         <tr>
           <td>Wallpaper Installation</td>
           <td>per roll</td>
-          <td>₹400 – ₹700</td>
+          <td>₹1200 – ₹2000</td>
           <td>Pattern match &amp; wall prep</td>
         </tr>
         <tr>
           <td>Window Blinds Installation</td>
           <td>per panel</td>
-          <td>₹600 – ₹1,200</td>
-          <td>Type &amp; mount</td>
+          <td>₹1000 – ₹4000</td>
+          <td>per square meter</td>
         </tr>
       </tbody>
     </table>
