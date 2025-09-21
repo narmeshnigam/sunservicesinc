@@ -684,12 +684,6 @@ include __DIR__ . '/includes/header.php';
           <td>Depends on stone condition &amp; finish level</td>
         </tr>
         <tr>
-          <td>Deep Home Cleaning (2BHK)</td>
-          <td>per job</td>
-          <td>₹4,999 – ₹7,999</td>
-          <td>Excludes heavy junk removal</td>
-        </tr>
-        <tr>
           <td>Sofa Shampoo</td>
           <td>per seat</td>
           <td>₹299 – ₹499</td>
@@ -698,14 +692,20 @@ include __DIR__ . '/includes/header.php';
         <tr>
           <td>Wallpaper Installation</td>
           <td>per roll</td>
-          <td>₹1200 – ₹2000</td>
+          <td>₹1200 – ₹2000+</td>
           <td>Pattern match &amp; wall prep</td>
         </tr>
         <tr>
-          <td>Window Blinds Installation</td>
+          <td>Curtain Installation</td>
           <td>per panel</td>
-          <td>₹1000 – ₹4000</td>
+          <td>₹800 – ₹2000+</td>
           <td>per square meter</td>
+        </tr>
+        <tr>
+          <td>Carpet Cleaning</td>
+          <td>per sq. ft.</td>
+          <td>₹3 - ₹10+</td>
+          <td>per square foot</td>
         </tr>
       </tbody>
     </table>
