@@ -538,9 +538,10 @@ include __DIR__ . '/includes/header.php';
 <section class="ssi-home" data-ssi="home">
   <div class="container ssi-home__hero">
     <div>
+      <h1 class="ssi-home__title">Sun Services Inc</h1>
       <span class="ssi-home__eyebrow">Delhi NCR · Since 2006</span>
-      <h1 class="ssi-home__title">Cleaning, Polishing &amp; Facility Services — Done Right</h1>
-      <p class="ssi-home__lead">From <strong>marble floor crystallization</strong> and <strong>sofa shampooing</strong> to <strong>deep home cleaning</strong>, <strong>blinds &amp; wallpaper installation</strong>, and <strong>office housekeeping</strong>, Sun Services Inc delivers trained teams, the right machines &amp; chemistry, and on-time, quality service.</p>
+      <h1 class="ssi-home__title">Curtains, Blinds &amp; Flooring and Maintenance Services — Done Right</h1>
+      <p class="ssi-home__lead">Complete <strong>curtains, blinds, and flooring solutions</strong>—from consultation and measurement to supply, professional installation, and ongoing maintenance. We manage every step, ensuring perfect fit, finish, and long-term care for homes and offices.</p>
       <div class="ssi-home__cta-row">
         <button class="ssi-btn ssi-btn--primary open-enquiry" type="button" data-service="General Enquiry">Book a Visit</button>
         <button class="ssi-btn ssi-btn--ghost open-enquiry" type="button" data-service="Get Quote">Get a Quote</button>
@@ -570,35 +571,39 @@ include __DIR__ . '/includes/header.php';
 
     <!-- Explicit named list (always visible) -->
     <div class="ssi-home__list" aria-label="Popular services we provide">
-      <span class="chip">Marble Floor Polishing</span>
-      <span class="chip">Deep Home Cleaning</span>
-      <span class="chip">Sofa &amp; Upholstery Cleaning</span>
-      <span class="chip">Bathroom Deep Cleaning</span>
-      <span class="chip">Kitchen Degreasing</span>
-      <span class="chip">Carpet Shampoo</span>
-      <span class="chip">Window &amp; Façade Cleaning</span>
-      <span class="chip">Wallpaper Installation</span>
-      <span class="chip">Window Blinds Installation</span>
-      <span class="chip">Curtain Rod Installation</span>
-      <span class="chip">Office Housekeeping</span>
-      <span class="chip">PVC/Vinyl &amp; Wooden Floor Care</span>
+      <span class="chip">Window Blinds Installtion</span>
+      <span class="chip">Designer Curtains - Fabric &amp; Fitting</span>
+      <span class="chip">Curtain Tracks Installation</span>
+      <span class="chip">Mosquito Net</span>
+      <span class="chip">Wall Covering</span>
+      <span class="chip">Wallpaper Sale &amp; Installation</span>
+      <span class="chip">UVM PVC Wall Sticker</span>
+      <span class="chip">Carpet Flooring</span>
+      <span class="chip">PVC Vinyl Flooring</span>
+      <span class="chip">Wooden Laminate</span>
+      <span class="chip">Diamond &amp; Silicate Polishing</span>
+      <span class="chip">Marble, Granite, Mosaic &amp; Kota Floor Polishing</span>
+      <span class="chip">Carpet Cleaning</span>
+      <span class="chip">Sofa &amp; Chair Cleaning</span>
+      <span class="chip">Window Blinds - Repairing &amp; Cleaning</span>
     </div>
 
     <!-- Server-rendered card grid (12 items) -->
     <?php
       $top_services = [
-        ['title' => 'Marble Floor Polishing', 'href' => '/services/marble-polishing.php'],
-        ['title' => 'Sofa & Upholstery Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
-        ['title' => 'Carpet Cleaning', 'href' => '/services/carpet-cleaning.php'],
-        ['title' => 'Window Cleaning', 'href' => '/services/window-cleaning.php'],
-        ['title' => 'Wallpaper Installation', 'href' => '/services/wallpaper-installation.php'],
         ['title' => 'Window Blinds', 'href' => '/services/blinds.php'],
         ['title' => 'Roller Blinds', 'href' => '/services/roller-blinds.php'],
         ['title' => 'Roman Blinds', 'href' => '/services/roman-blinds.php'],
         ['title' => 'Honeycomb Blinds', 'href' => '/services/honeycomb-blinds.php'],
-        ['title' => 'Curtains', 'href' => '/services/curtains.php'],
-        ['title' => 'Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
+        ['title' => 'Window Blinds Cleaning', 'href' => '/services/window-cleaning.php'],
+        ['title' => 'Designer Curtains', 'href' => '/services/curtains.php'],
         ['title' => 'Laminate Flooring', 'href' => '/services/laminate-flooring.php'],
+        ['title' => 'Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
+        ['title' => 'Marble Floor Polishing', 'href' => '/services/marble-polishing.php'],
+        ['title' => 'Wallpaper Installation', 'href' => '/services/wallpaper-installation.php'],
+        ['title' => 'Sofa & Upholstery Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
+        ['title' => 'Carpet Cleaning', 'href' => '/services/carpet-cleaning.php'],
+        
       ];
     ?>
     <div class="ssi-home__grid" id="ssiServiceCards">
