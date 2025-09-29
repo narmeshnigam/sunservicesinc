@@ -596,11 +596,11 @@ include __DIR__ . '/includes/header.php';
         ['title' => 'Honeycomb Blinds', 'href' => '/services/honeycomb-blinds.php'],
         ['title' => 'Window Blinds Cleaning', 'href' => '/services/window-cleaning.php'],
         ['title' => 'Designer Curtains', 'href' => '/services/curtains.php'],
-        ['title' => 'Laminate Flooring', 'href' => '/services/laminate-flooring.php'],
-        ['title' => 'Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
+        ['title' => 'Wooden Flooring', 'href' => '/services/laminate-flooring.php'],
+        ['title' => 'PVC Vinyl Flooring', 'href' => '/services/vinyl-flooring.php'],
         ['title' => 'Wall Paper', 'href' => '/services/wallpaper-installation.php'],
         ['title' => 'Marble Floor Polishing', 'href' => '/services/marble-polishing.php'],
-        ['title' => 'Sofa & Upholstery Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
+        ['title' => 'Sofa & Chairs Cleaning', 'href' => '/services/sofa-chair-cleaning.php'],
         ['title' => 'Carpet Cleaning', 'href' => '/services/carpet-cleaning.php'],
         
       ];
@@ -672,7 +672,7 @@ include __DIR__ . '/includes/header.php';
       </thead>
       <tbody>
         <tr>
-          <td>Blinds</td>
+          <td>Blinds Installation</td>
           <td>per sq.ft.</td>
           <td>₹75 – ₹300+</td>
           <td>Depends on size, material and cartridge selection</td>
@@ -684,9 +684,9 @@ include __DIR__ . '/includes/header.php';
           <td>Depends on stone condition &amp; finish level</td>
         </tr>
         <tr>
-          <td>Sofa Shampoo</td>
+          <td>Sofa Shampooing & Cleaning</td>
           <td>per seat</td>
-          <td>₹299 – ₹499</td>
+          <td>₹180 – ₹350+</td>
           <td>Fabric type &amp; stain level</td>
         </tr>
         <tr>
@@ -696,13 +696,13 @@ include __DIR__ . '/includes/header.php';
           <td>Pattern match &amp; wall prep</td>
         </tr>
         <tr>
-          <td>Curtain Installation</td>
+          <td>Curtain Fitting</td>
           <td>per panel</td>
           <td>₹800 – ₹2000+</td>
           <td>per square meter</td>
         </tr>
         <tr>
-          <td>Carpet Cleaning</td>
+          <td>Carpet Shampooing & Cleaning</td>
           <td>per sq. ft.</td>
           <td>₹3 - ₹10+</td>
           <td>per square foot</td>

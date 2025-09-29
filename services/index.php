@@ -40,7 +40,7 @@ include __DIR__ . '/../includes/header.php';
                 <p>Stylish and functional roller blinds installation.</p>
             </div>
             <div class="col">
-                <h3><a href='/services/customised-blinds.php'>Customised Blinds</a></h3>
+                <h3><a href='/services/customized-blinds.php'>Customized Blinds</a></h3>
                 <p>Bespoke blinds tailored to your specific needs and style.</p>
             </div>
             <div class="col">
@@ -68,8 +68,8 @@ include __DIR__ . '/../includes/header.php';
                 <p>Affordable and versatile PVC chick blinds.</p>
             </div>
             <div class="col">
-                <h3><a href='/services/motorised-blinds.php'>Motorised Blinds</a></h3>
-                <p>Automated motorised blinds for effortless control and convenience.</p>
+                <h3><a href='/services/motorized-blinds.php'>Motorized Blinds</a></h3>
+                <p>Automated motorized blinds for effortless control and convenience.</p>
             </div>
             <div class="col">
                 <h3><a href='/services/pvc-strip-curtains.php'>PVC Strip Curtains</a></h3>
@@ -87,7 +87,7 @@ include __DIR__ . '/../includes/header.php';
                 <p>Designer curtains and professional installation services.</p>
             </div>
             <div class="col">
-                <h3><a href='/services/channel-rod.php'>Channel & Rod</a></h3>
+                <h3><a href='/services/rod-channel-track.php'>Rod & Channel Track</a></h3>
                 <p>High-quality curtain channels and rods for smooth operation and durability.</p>
             </div>
             <div class="col">

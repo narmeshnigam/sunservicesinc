@@ -10,7 +10,7 @@ include __DIR__ . '/../includes/header.php';
     <div class="trust-item"><h3>Delhi NCR Service</h3><p>Serving clients across Delhi NCR.</p></div>
     <div class="trust-item"><h3>24/7 Support</h3><p>Contact us anytime for assistance.</p></div>
 </div>
-<section><div class="container"><h2>Our Packages</h2><p>Choose from our range of packages or request a customised quote.</p><ul><li><strong>Essential:</strong> Basic services for routine maintenance.</li><li><strong>Comprehensive:</strong> A complete solution covering multiple services.</li><li><strong>Premium:</strong> Tailor-made solutions with dedicated support.</li></ul></div></section>
+<section><div class="container"><h2>Our Packages</h2><p>Choose from our range of packages or request a customized quote.</p><ul><li><strong>Essential:</strong> Basic services for routine maintenance.</li><li><strong>Comprehensive:</strong> A complete solution covering multiple services.</li><li><strong>Premium:</strong> Tailor-made solutions with dedicated support.</li></ul></div></section>
 
 <section>
     <div class="container">

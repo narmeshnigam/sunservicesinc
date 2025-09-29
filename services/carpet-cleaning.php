@@ -28,7 +28,7 @@ include __DIR__ . '/../includes/header.php';
         </ol>
     </div>
 </section>
-<section><div class="container"><h2>Packages & Pricing</h2><p>We offer competitive pricing tailored to Carpet Cleaning needs. Contact us for a customised quote or choose from our popular packages below:</p><ul><li><strong>Basic Package:</strong> Suitable for small projects and minor services.</li><li><strong>Standard Package:</strong> Ideal for comprehensive carpet cleaning requirements.</li><li><strong>Premium Package:</strong> Full-service solution including follow-up maintenance.</li></ul><p>Need something specific? <a href="#" class="open-enquiry btn-primary" data-service="Cleaning">Get a Custom Quote</a></p></div></section>
+<section><div class="container"><h2>Packages & Pricing</h2><p>We offer competitive pricing tailored to Carpet Cleaning needs. Contact us for a customized quote or choose from our popular packages below:</p><ul><li><strong>Basic Package:</strong> Suitable for small projects and minor services.</li><li><strong>Standard Package:</strong> Ideal for comprehensive carpet cleaning requirements.</li><li><strong>Premium Package:</strong> Full-service solution including follow-up maintenance.</li></ul><p>Need something specific? <a href="#" class="open-enquiry btn-primary" data-service="Cleaning">Get a Custom Quote</a></p></div></section>
 
 <section>
     <div class="container">

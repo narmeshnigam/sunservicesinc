@@ -40,7 +40,7 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </div>
 </section>
-<section><div class="container"><h2>Why Partner with Us?</h2><p>Our experience and commitment to quality make us the preferred partner for facility management. From customised maintenance schedules to dedicated account managers, we deliver value at every step.</p></div></section>
+<section><div class="container"><h2>Why Partner with Us?</h2><p>Our experience and commitment to quality make us the preferred partner for facility management. From customized maintenance schedules to dedicated account managers, we deliver value at every step.</p></div></section>
 
 <section>
     <div class="container">
